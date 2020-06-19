@@ -1,0 +1,185 @@
+.nav_logo {
+    color: #fff;
+    font-family: Roboto,sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 0;
+}
+
+body { position: relative; }
+
+.logo_link:hover {
+    text-decoration: none;
+}
+
+.koi {
+    color: #2ddbac;
+    font-family: Roboto,sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 0;
+}
+
+.carousel-caption {
+    margin-bottom: 10rem;
+    margin-left: 2.25rem;
+    
+}
+
+.carousel-caption h2 {
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 2.25rem;
+    padding-left: 43px;
+    padding-bottom: 20px;
+}
+
+.program_edit {
+    font-size: 20px;
+    color: black;
+}
+
+.bari_logo {
+    color: #314464;
+    font-family: Roboto,sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    letter-spacing: 0;
+}
+
+.about_edit {
+    font-size: 20px;
+    color: black;
+    line-height: 45px;
+    font-weight: 400;
+}
+
+div h6 {
+    color: #2ddbac;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 0;
+}
+
+  .mb-0 > a {
+    display: block;
+    position: relative;
+  }
+  .mb-0 > a:after {
+    content: "\f078"; 
+    font-family: 'FontAwesome';
+    position: absolute;
+    right: 0;
+  }
+  .mb-0 > a[aria-expanded="true"]:after {
+    content: "\f077";
+  }
+
+#collapse_edit {
+    color: black;
+}
+
+#collapse_edit:hover {
+    text-decoration: none;
+}
+
+.joinText_edit {
+    color: #314464;
+}
+
+#btn_modify {
+    background-color: #2ddbac; 
+    font-size: 23px;
+}
+
+#btn_modify a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.fText_edit {
+    color: #fff;
+}
+
+.footer-icons a {
+    color: #ffffff;
+    font-size: 45px;
+}
+
+.footer-icons a:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#main-navbar .nav-link {
+    padding: .5rem .5rem;
+}
+
+#main-navbar .nav-pills .nav-link.active {
+	background-color: #333;	
+}
+
+.card_text {
+    font-size: 18px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.img_fit  {
+    object-fit: scale-down;
+}
+
+.mystyle {
+    margin-top: 50px;
+    color: red;
+
+}
+
+@media (max-width: 991.98px) {
+    .card_edit {
+        margin-left: 12px;
+        margin-bottom: 25px;
+    }
+    .logo_img img {
+        width:40%;
+        height: 50px;
+        margin-bottom: 25px;
+    }
+    .city img {
+        width: 40%;
+        height: 90px;
+        margin-bottom: 25px;
+        margin-top: 12px;
+    }
+    .sheba_logo img {
+        width: 40%;
+        height: 60px;
+        margin-bottom: 20px;
+    }
+    .wallet_logo img {
+        width:40%;
+        height: 50px;
+        margin-top: 6px;
+    }
+    .styline_logo img {
+        width: 40%;
+        height: 90px;
+    }
+ }
+
+ @media (max-width: 575px) {
+    .img_edit {
+        margin-top: 60px;
+        width: 100%;
+        height: 100%;
+    }
+    .caption_modify {
+        margin: -18px;
+        margin-left: -9px;
+    }
+
+    .carousel-caption h2 {
+        font-size: 10px;
+        line-height: 1.15rem;
+        padding-left: 188px;
+    }
+ }
